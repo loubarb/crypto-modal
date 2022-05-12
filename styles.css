@@ -1,0 +1,17 @@
+.wrapper {
+  text-align: center;
+  padding: 0 5rem;
+}
+
+.cards-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 20%);
+  justify-content: center;
+}
+
+.card {
+  background-color: wheat;
+  border-radius: 10px;
+  min-height: 500px;
+}
