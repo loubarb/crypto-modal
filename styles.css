@@ -1,6 +1,23 @@
+body {
+  background: url('./img/crypto-matrix.png');
+  background-size: cover;
+}
+
 .wrapper {
   text-align: center;
   padding: 0 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  background-color: #000;
+  margin: auto;
+  width: 20%;
+}
+
+.headline h1, h3 {
+  color: #f5fa75;
 }
 
 .cards-container {
@@ -11,17 +28,27 @@
 }
 
 .card {
-  background-color: wheat;
+  background-color: rgba(71, 218, 71, 0.562);
   border-radius: 10px;
   min-height: 300px;
+  /* width: 175px; */
+}
+
+.card img {
+  width: 150px;
 }
 
 .card p {
   display: none;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
 .outer-modal {
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(54, 51, 51, 0.568);
   display: grid;
   position: fixed;
   height: 100vh;
